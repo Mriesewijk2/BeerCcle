@@ -10515,14 +10515,25 @@
     }];
 
         //Initiate a map
-    var map = new L.Map('mapid').setView([52.52020, 13.37570], 17);
-    // Add the base layer (the same as in YASR)
-    L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
+    var basemap = L.tileLayer("http://{s}.tile.osm.org/{z}/{x}/{y}.png", {
         attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
 
-    }).addTo(map);
+    });
+    var routs = L.tileLayer.wms('https://geodata.nationaalgeoregister.nl/lfroutes/ows?',{
+        layers: 'lfroutes:lfroutes',
+        format: 'image/png',
+        transparent: true
+    });
+
+    var map = new L.Map('mapid', {
+        layers: [basemap, routs]
+    }).setView([52.371807, 4.86393985], 17);
+    // Add the base layer (the same as in YASR)
+
+
 
    // var marker = L.marker([51.5, -0.09], [51.6, -0.09]).addTo(map);
+
 
     for (var i = 0; i < data.length; i++) {
         var feat = data[i].postaddress;
@@ -10532,13 +10543,13 @@
             console.log(feat.longitude);}
     };
 
-    L.Routing.control({
-        waypoints: [
-            L.latLng(57.74, 11.94),
-            L.latLng(57.6792, 11.949)
-        ]
-   //  router: L.Routing.mapbox('pk.eyJ1Ijoic3RhbnJvbnpoaW4iLCJhIjoiY2lwNmpjZDdhMDAwNnU4bmxocGExcW03ZSJ9.iFi0yE03PDdiPM0D37Yu2w'),
- }).addTo(map);
+//    L.Routing.control({
+//        waypoints: [
+//            L.latLng(57.74, 11.94),
+//            L.latLng(57.6792, 11.949)
+//        ],
+//     router: L.Routing.mapbox('pk.eyJ1Ijoic3RhbnJvbnpoaW4iLCJhIjoiY2lwNmpjZDdhMDAwNnU4bmxocGExcW03ZSJ9.iFi0yE03PDdiPM0D37Yu2w'),
+// }).addTo(map);
 </script>
 </body>
 </html>
