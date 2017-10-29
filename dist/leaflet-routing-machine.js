@@ -1667,36 +1667,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht"
+                "default": "Sie haben Ihr {nth} Ziel erreicht"
             },
             "left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "sharp left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "sharp right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "slight right": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich rechts"
             },
             "slight left": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich links"
             },
             "straight": {
-                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus",
-                "upcoming": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
+                "default": "Sie haben Ihr {nth} Ziel erreicht, es befindet sich geradeaus"
             }
         },
         "continue": {
@@ -2162,36 +2154,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "You have arrived at your {nth} destination",
-                "upcoming": "You will arrive at your {nth} destination"
+                "default": "You have arrived at your {nth} destination"
             },
             "left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "default": "You have arrived at your {nth} destination, on the left"
             },
             "right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "default": "You have arrived at your {nth} destination, on the right"
             },
             "sharp left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "default": "You have arrived at your {nth} destination, on the left"
             },
             "sharp right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "default": "You have arrived at your {nth} destination, on the right"
             },
             "slight right": {
-                "default": "You have arrived at your {nth} destination, on the right",
-                "upcoming": "You will arrive at your {nth} destination, on the right"
+                "default": "You have arrived at your {nth} destination, on the right"
             },
             "slight left": {
-                "default": "You have arrived at your {nth} destination, on the left",
-                "upcoming": "You will arrive at your {nth} destination, on the left"
+                "default": "You have arrived at your {nth} destination, on the left"
             },
             "straight": {
-                "default": "You have arrived at your {nth} destination, straight ahead",
-                "upcoming": "You will arrive at your {nth} destination, straight ahead"
+                "default": "You have arrived at your {nth} destination, straight ahead"
             }
         },
         "continue": {
@@ -2521,16 +2505,46 @@ module.exports={
         },
         "exit roundabout": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Make a {modifier}",
+                "name": "Make a {modifier} onto {way_name}",
+                "destination": "Make a {modifier} towards {destination}"
+            },
+            "left": {
+                "default": "Turn left",
+                "name": "Turn left onto {way_name}",
+                "destination": "Turn left towards {destination}"
+            },
+            "right": {
+                "default": "Turn right",
+                "name": "Turn right onto {way_name}",
+                "destination": "Turn right towards {destination}"
+            },
+            "straight": {
+                "default": "Go straight",
+                "name": "Go straight onto {way_name}",
+                "destination": "Go straight towards {destination}"
             }
         },
         "exit rotary": {
             "default": {
-                "default": "Exit the traffic circle",
-                "name": "Exit the traffic circle onto {way_name}",
-                "destination": "Exit the traffic circle towards {destination}"
+                "default": "Make a {modifier}",
+                "name": "Make a {modifier} onto {way_name}",
+                "destination": "Make a {modifier} towards {destination}"
+            },
+            "left": {
+                "default": "Turn left",
+                "name": "Turn left onto {way_name}",
+                "destination": "Turn left towards {destination}"
+            },
+            "right": {
+                "default": "Turn right",
+                "name": "Turn right onto {way_name}",
+                "destination": "Turn right towards {destination}"
+            },
+            "straight": {
+                "default": "Go straight",
+                "name": "Go straight onto {way_name}",
+                "destination": "Go straight towards {destination}"
             }
         },
         "turn": {
@@ -2627,36 +2641,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingis vian {nth} celon"
+                "default": "Vi atingis vian {nth} celon"
             },
             "left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "sharp left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "sharp right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight right": {
-                "default": "Vi atingis vian {nth} celon ĉe dekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe dekstre"
+                "default": "Vi atingis vian {nth} celon ĉe dekstre"
             },
             "slight left": {
-                "default": "Vi atingis vian {nth} celon ĉe maldekstre",
-                "upcoming": "Vi atingis vian {nth} celon ĉe maldekstre"
+                "default": "Vi atingis vian {nth} celon ĉe maldekstre"
             },
             "straight": {
-                "default": "Vi atingis vian {nth} celon",
-                "upcoming": "Vi atingis vian {nth} celon"
+                "default": "Vi atingis vian {nth} celon"
             }
         },
         "continue": {
@@ -3060,7 +3066,6 @@ module.exports={
         }
     }
 }
-
 },{}],9:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -3122,36 +3127,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Has llegado a tu {nth} destino",
-                "upcoming": "Has llegado a tu {nth} destino"
+                "default": "Has llegado a tu {nth} destino"
             },
             "left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "sharp left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "sharp right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "straight": {
-                "default": "Has llegado a tu {nth} destino, en frente",
-                "upcoming": "Has llegado a tu {nth} destino, en frente"
+                "default": "Has llegado a tu {nth} destino, en frente"
             }
         },
         "continue": {
@@ -3555,7 +3552,6 @@ module.exports={
         }
     }
 }
-
 },{}],10:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -3617,36 +3613,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Has llegado a tu {nth} destino",
-                "upcoming": "Has llegado a tu {nth} destino"
+                "default": "Has llegado a tu {nth} destino"
             },
             "left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "sharp left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "sharp right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight right": {
-                "default": "Has llegado a tu {nth} destino, a la derecha",
-                "upcoming": "Has llegado a tu {nth} destino, a la derecha"
+                "default": "Has llegado a tu {nth} destino, a la derecha"
             },
             "slight left": {
-                "default": "Has llegado a tu {nth} destino, a la izquierda",
-                "upcoming": "Has llegado a tu {nth} destino, a la izquierda"
+                "default": "Has llegado a tu {nth} destino, a la izquierda"
             },
             "straight": {
-                "default": "Has llegado a tu {nth} destino, en frente",
-                "upcoming": "Has llegado a tu {nth} destino, en frente"
+                "default": "Has llegado a tu {nth} destino, en frente"
             }
         },
         "continue": {
@@ -4050,7 +4038,6 @@ module.exports={
         }
     }
 }
-
 },{}],11:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -4112,36 +4099,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Vous êtes arrivés à votre {nth} destination",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination"
+                "default": "Vous êtes arrivés à votre {nth} destination"
             },
             "left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "sharp left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "sharp right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "slight right": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la droite"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la droite"
             },
             "slight left": {
-                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
+                "default": "Vous êtes arrivés à votre {nth} destination, sur la gauche"
             },
             "straight": {
-                "default": "Vous êtes arrivés à votre {nth} destination, droit devant",
-                "upcoming": "Vous êtes arrivés à votre {nth} destination, droit devant"
+                "default": "Vous êtes arrivés à votre {nth} destination, droit devant"
             }
         },
         "continue": {
@@ -4607,36 +4586,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Anda telah tiba di tujuan ke-{nth}",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}"
+                "default": "Anda telah tiba di tujuan ke-{nth}"
             },
             "left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "sharp left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "sharp right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "slight right": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kanan"
             },
             "slight left": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
+                "default": "Anda telah tiba di tujuan ke-{nth}, di sebelah kiri"
             },
             "straight": {
-                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja",
-                "upcoming": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
+                "default": "Anda telah tiba di tujuan ke-{nth}, lurus saja"
             }
         },
         "continue": {
@@ -5102,36 +5073,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Sei arrivato alla tua {nth} destinazione",
-                "upcoming": "Sei arrivato alla tua {nth} destinazione"
+                "default": "Sei arrivato alla tua {nth} destinazione"
             },
             "left": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "right": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "sharp left": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "sharp right": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "slight right": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla destra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla destra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla destra"
             },
             "slight left": {
-                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
+                "default": "sei arrivato alla tua {nth} destinazione, sulla sinistra"
             },
             "straight": {
-                "default": "sei arrivato alla tua {nth} destinazione, si trova davanti a te",
-                "upcoming": "sei arrivato alla tua {nth} destinazione, si trova davanti a te"
+                "default": "sei arrivato alla tua {nth} destinazione, si trova davanti a te"
             }
         },
         "continue": {
@@ -5535,7 +5498,6 @@ module.exports={
         }
     }
 }
-
 },{}],14:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -5597,36 +5559,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Je bent gearriveerd op de {nth} bestemming.",
-                "upcoming": "Je bent gearriveerd op de {nth} bestemming."
+                "default": "Je bent gearriveerd op de {nth} bestemming."
             },
             "left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "sharp left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "sharp right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "slight right": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich rechts."
             },
             "slight left": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich links."
             },
             "straight": {
-                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je.",
-                "upcoming": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je."
+                "default": "Je bent gearriveerd. De {nth} bestemming bevindt zich voor je."
             }
         },
         "continue": {
@@ -6092,36 +6046,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Dojechano do miejsca docelowego {nth}",
-                "upcoming": "Dojechano do miejsca docelowego {nth}"
+                "default": "Dojechano do miejsca docelowego {nth}"
             },
             "left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "sharp left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "sharp right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight right": {
-                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po prawej stronie"
             },
             "slight left": {
-                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie",
-                "upcoming": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
+                "default": "Dojechano do miejsca docelowego {nth}, po lewej stronie"
             },
             "straight": {
-                "default": "Dojechano do miejsca docelowego {nth} , prosto",
-                "upcoming": "Dojechano do miejsca docelowego {nth} , prosto"
+                "default": "Dojechano do miejsca docelowego {nth} , prosto"
             }
         },
         "continue": {
@@ -6525,7 +6471,6 @@ module.exports={
         }
     }
 }
-
 },{}],16:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -6587,36 +6532,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Você chegou ao seu {nth} destino",
-                "upcoming": "Você chegou ao seu {nth} destino"
+                "default": "Você chegou ao seu {nth} destino"
             },
             "left": {
-                "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda"
+                "default": "Você chegou ao seu {nth} destino, à esquerda"
             },
             "right": {
-                "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita"
+                "default": "Você chegou ao seu {nth} destino, à direita"
             },
             "sharp left": {
-                "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda"
+                "default": "Você chegou ao seu {nth} destino, à esquerda"
             },
             "sharp right": {
-                "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita"
+                "default": "Você chegou ao seu {nth} destino, à direita"
             },
             "slight right": {
-                "default": "Você chegou ao seu {nth} destino, à direita",
-                "upcoming": "Você chegou ao seu {nth} destino, à direita"
+                "default": "Você chegou ao seu {nth} destino, à direita"
             },
             "slight left": {
-                "default": "Você chegou ao seu {nth} destino, à esquerda",
-                "upcoming": "Você chegou ao seu {nth} destino, à esquerda"
+                "default": "Você chegou ao seu {nth} destino, à esquerda"
             },
             "straight": {
-                "default": "Você chegou ao seu {nth} destino, em frente",
-                "upcoming": "Você chegou ao seu {nth} destino, em frente"
+                "default": "Você chegou ao seu {nth} destino, em frente"
             }
         },
         "continue": {
@@ -7082,36 +7019,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Ați ajuns la {nth} destinație",
-                "upcoming": "Ați ajuns la {nth} destinație"
+                "default": "Ați ajuns la {nth} destinație"
             },
             "left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "sharp left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "sharp right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight right": {
-                "default": "Ați ajuns la {nth} destinație, pe dreapta",
-                "upcoming": "Ați ajuns la {nth} destinație, pe dreapta"
+                "default": "Ați ajuns la {nth} destinație, pe dreapta"
             },
             "slight left": {
-                "default": "Ați ajuns la {nth} destinație, pe stânga",
-                "upcoming": "Ați ajuns la {nth} destinație, pe stânga"
+                "default": "Ați ajuns la {nth} destinație, pe stânga"
             },
             "straight": {
-                "default": "Ați ajuns la {nth} destinație, în față",
-                "upcoming": "Ați ajuns la {nth} destinație, în față"
+                "default": "Ați ajuns la {nth} destinație, în față"
             }
         },
         "continue": {
@@ -7515,7 +7444,6 @@ module.exports={
         }
     }
 }
-
 },{}],18:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -7577,36 +7505,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Вы прибыли в {nth} пункт назначения",
-                "upcoming": "You will arrive at your {nth} destination"
+                "default": "Вы прибыли в {nth} пункт назначения"
             },
             "left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "sharp left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "sharp right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "slight right": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится справа",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится справа"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится справа"
             },
             "slight left": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится слева",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится слева"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится слева"
             },
             "straight": {
-                "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами",
-                "upcoming": "Вы прибыли в {nth} пункт назначения, он находится перед вами"
+                "default": "Вы прибыли в {nth} пункт назначения, он находится перед вами"
             }
         },
         "continue": {
@@ -8072,36 +7992,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Du är framme vid din {nth} destination",
-                "upcoming": "Du är framme vid din {nth} destination"
+                "default": "Du är framme vid din {nth} destination"
             },
             "left": {
-                "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, till vänster"
+                "default": "Du är framme vid din {nth} destination, till vänster"
             },
             "right": {
-                "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är framme vid din {nth} destination, till höger"
+                "default": "Du är framme vid din {nth} destination, till höger"
             },
             "sharp left": {
-                "default": "Du är framme vid din {nth} destination, skarpt till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, skarpt till vänster"
+                "default": "Du är framme vid din {nth} destination, skarpt till vänster"
             },
             "sharp right": {
-                "default": "Du är framme vid din {nth} destination, skarpt till höger",
-                "upcoming": "Du är framme vid din {nth} destination, skarpt till höger"
+                "default": "Du är framme vid din {nth} destination, skarpt till höger"
             },
             "slight right": {
-                "default": "Du är framme vid din {nth} destination, till höger",
-                "upcoming": "Du är framme vid din {nth} destination, till höger"
+                "default": "Du är framme vid din {nth} destination, till höger"
             },
             "slight left": {
-                "default": "Du är framme vid din {nth} destination, till vänster",
-                "upcoming": "Du är framme vid din {nth} destination, till vänster"
+                "default": "Du är framme vid din {nth} destination, till vänster"
             },
             "straight": {
-                "default": "Du är framme vid din {nth} destination, rakt fram",
-                "upcoming": "Du är framme vid din {nth} destination, rakt fram"
+                "default": "Du är framme vid din {nth} destination, rakt fram"
             }
         },
         "continue": {
@@ -8505,7 +8417,6 @@ module.exports={
         }
     }
 }
-
 },{}],20:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -8567,36 +8478,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "{nth} hedefinize ulaştınız",
-                "upcoming": "{nth} hedefinize ulaştınız"
+                "default": "{nth} hedefinize ulaştınız"
             },
             "left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
             },
             "right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
             },
             "sharp left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
             },
             "sharp right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
             },
             "slight right": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz sağınızdadır"
             },
             "slight left": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz solunuzdadır"
             },
             "straight": {
-                "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır",
-                "upcoming": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır"
+                "default": "{nth} hedefinize ulaştınız, hedefiniz karşınızdadır"
             }
         },
         "continue": {
@@ -9000,7 +8903,6 @@ module.exports={
         }
     }
 }
-
 },{}],21:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -9062,36 +8964,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Ви прибули у ваш {nth} пункт призначення",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення"
+                "default": "Ви прибули у ваш {nth} пункт призначення"
             },
             "left": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "right": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "sharp left": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "sharp right": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "slight right": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – праворуч"
             },
             "slight left": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – ліворуч"
             },
             "straight": {
-                "default": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами",
-                "upcoming": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами"
+                "default": "Ви прибули у ваш {nth} пункт призначення, він – прямо перед вами"
             }
         },
         "continue": {
@@ -9557,36 +9451,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "Đến nơi {nth}",
-                "upcoming": "Đến nơi {nth}"
+                "default": "Đến nơi {nth}"
             },
             "left": {
-                "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "default": "Đến nơi {nth} ở bên trái"
             },
             "right": {
-                "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "default": "Đến nơi {nth} ở bên phải"
             },
             "sharp left": {
-                "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "default": "Đến nơi {nth} ở bên trái"
             },
             "sharp right": {
-                "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "default": "Đến nơi {nth} ở bên phải"
             },
             "slight right": {
-                "default": "Đến nơi {nth} ở bên phải",
-                "upcoming": "Đến nơi {nth} ở bên phải"
+                "default": "Đến nơi {nth} ở bên phải"
             },
             "slight left": {
-                "default": "Đến nơi {nth} ở bên trái",
-                "upcoming": "Đến nơi {nth} ở bên trái"
+                "default": "Đến nơi {nth} ở bên trái"
             },
             "straight": {
-                "default": "Đến nơi {nth} ở trước mặt",
-                "upcoming": "Đến nơi {nth} ở trước mặt"
+                "default": "Đến nơi {nth} ở trước mặt"
             }
         },
         "continue": {
@@ -9990,7 +9876,6 @@ module.exports={
         }
     }
 }
-
 },{}],23:[function(_dereq_,module,exports){
 module.exports={
     "meta": {
@@ -10052,36 +9937,28 @@ module.exports={
         },
         "arrive": {
             "default": {
-                "default": "您已经到达您的{nth}个目的地",
-                "upcoming": "您已经到达您的{nth}个目的地"
+                "default": "您已经到达您的{nth}个目的地"
             },
             "left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "sharp left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "sharp right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight right": {
-                "default": "您已经到达您的{nth}个目的地，在道路右侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路右侧"
+                "default": "您已经到达您的{nth}个目的地，在道路右侧"
             },
             "slight left": {
-                "default": "您已经到达您的{nth}个目的地，在道路左侧",
-                "upcoming": "您已经到达您的{nth}个目的地，在道路左侧"
+                "default": "您已经到达您的{nth}个目的地，在道路左侧"
             },
             "straight": {
-                "default": "您已经到达您的{nth}个目的地，在您正前方",
-                "upcoming": "您已经到达您的{nth}个目的地，在您正前方"
+                "default": "您已经到达您的{nth}个目的地，在您正前方"
             }
         },
         "continue": {
@@ -11667,7 +11544,7 @@ module.exports = L.Routing = {
 	'use strict';
 
 	var L = (typeof window !== "undefined" ? window['L'] : typeof global !== "undefined" ? global['L'] : null);
-
+	
 	module.exports = L.LayerGroup.extend({
 		includes: L.Mixin.Events,
 
@@ -11701,7 +11578,7 @@ module.exports = L.Routing = {
 				this.options.styles,
 				this.options.addWaypoints);
 		},
-
+		
 		getBounds: function() {
 			return L.latLngBounds(this._route.coordinates);
 		},
@@ -11796,12 +11673,12 @@ module.exports = L.Routing = {
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],33:[function(_dereq_,module,exports){
-/*
+/* 
    NOTICE
    Since version 3.2.5, the functionality in this file is by
    default NOT used for localizing OSRM instructions.
    Instead, we rely on the module osrm-text-instructions (https://github.com/Project-OSRM/osrm-text-instructions/).
-
+   
    This file can still be used for other routing backends, or if you specify the
    stepToText option in the OSRMv1 class.
 */
@@ -12090,7 +11967,7 @@ module.exports = L.Routing = {
 
 		'es': spanish,
 		'sp': spanish,
-
+		
 		'nl': {
 			directions: {
 				N: 'noordelijke',
